@@ -2,6 +2,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab                   "replace tabs by spaces
 set listchars=tab:>-,trail:.    "show tabs and trailing
+set encoding=utf-8
 
 set autoindent        
 set smartindent
