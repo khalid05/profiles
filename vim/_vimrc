@@ -11,9 +11,9 @@ set encoding=UTF-8              "Display UTF-8
 set ignorecase                  "case sensitivity is dumb
 set smartcase                   "if there are case, go case sensitive
 
-set autoindent        
+set autoindent
 set smartindent
-set showmatch                   "show matching brackets      
+set showmatch                   "show matching brackets
 set nowrap                      "don't wrap line
 
 set number                      "display line number
