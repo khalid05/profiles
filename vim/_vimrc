@@ -24,8 +24,10 @@ syntax on                       "enable syntax highlighting
 
 set nocompatible                "don't be compatible with vi
 set ignorecase                  "ignore case by default
-set backspace=indent,eol,start  "enhance backspace 
+set backspace=indent,eol,start  "enhance backspace
 set mouse=a                     "use mouse everywhere
+set nobackup                    "no .swp file
+set iskeyword+=_,$,@,%,#        "none of these are word dividers
 
 set cursorline                  "highlight line
 colorscheme koehler
