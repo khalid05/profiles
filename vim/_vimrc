@@ -21,6 +21,8 @@ set ruler                       "Always show current position along the bottom
 set showcmd                     "Show the command being typed
 
 syntax on                       "enable syntax highlighting
+colorscheme koehler
+autocmd BufRead *.twig set filetype=htmltwig
 
 set nocompatible                "don't be compatible with vi
 set ignorecase                  "ignore case by default
@@ -30,7 +32,6 @@ set nobackup                    "no .swp file
 set iskeyword+=_,$,@,%,#        "none of these are word dividers
 
 set cursorline                  "highlight line
-colorscheme koehler
 set guifont=Monospace\ 12
 set langmenu=en_US.UTF-8
 set scrolloff=8                 " Keep x line for scope while scrolling
