@@ -12,6 +12,9 @@ endif
 
 syntax case match
 
+setlocal shiftwidth=2
+setlocal tabstop=2
+
 " Twig template built-in tags and parameters (without filter, macro, is and raw, they
 " have special threatment)
 syn keyword twigStatement containedin=twigVarBlock,twigTagBlock,twigNested contained and if else in not or recursive as import

@@ -22,6 +22,8 @@ set showcmd                     "Show the command being typed
 
 syntax on                       "enable syntax highlighting
 colorscheme koehler
+
+" template
 autocmd BufRead *.twig set filetype=htmltwig
 
 set nocompatible                "don't be compatible with vi
