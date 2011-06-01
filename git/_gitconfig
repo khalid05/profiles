@@ -1,0 +1,29 @@
+[user]
+  name  = "Xavier Briand"
+  email = xavierbriand@gmail.com
+[github]
+  user  = xavierbriand
+  token = ff6f49ef642c6ff8831082c974f3c847
+[alias]
+  st    = status
+  co    = checkout
+  ci    = commit
+  br    = branch
+  logg  = log --decorate --graph  --format='%C(yellow)%h%Creset %Cred%d%Creset %s %Cgreen%an%Creset'
+  cat   = cat-file -p
+  diffc = diff --cached
+  addp  = add --patch
+[core]
+  eol          = lf
+  whitespace   = trailing-space,space-before-tab,tab-in-indent
+[color]
+  branch      = auto
+  diff        = auto
+  interactive = auto
+  status      = auto
+  grep        = auto
+[merge]
+  ff   = false
+  tool = vimdiff
+[status]
+  showUntrackedFiles = all
