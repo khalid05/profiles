@@ -49,11 +49,16 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs  = 1
 let g:miniBufExplModSelTarget       = 1
 
+" Align
+let g:loaded_AlignMapsPlugin = "v41"
 
-" TagList settings 
-let Tlist_Auto_Open=0
-let Tlist_Use_Right_Window=0
-let Tlist_Sort_Type = "name"    " order by
+" TagList settings
+let Tlist_Auto_Open               = 0
+let Tlist_Compact_Format          = 1
+let Tlist_GainFocus_On_ToggleOpen = 1
+let Tlist_Show_One_File           = 1
+let Tlist_Use_Right_Window        = 0
+let Tlist_Sort_Type               = "name"    " order by
 
 " language specific
 let tlist_php_settings = 'php;c:class;d:constant;f:function' " don't show variables in php
@@ -64,3 +69,21 @@ au BufNewFile,BufRead *.rst setlocal spell spelllang=fr
 augroup END
 
 set nospell                     " disabled spelling
+
+" Remap
+let mapleader = ","
+let g:mapleader = ","
+
+"" NERDTree
+noremap <leader>n :NERDTreeToggle<CR>
+
+"" Bclose
+noremap <leader>q :Bclose<CR>
+noremap <leader>q! :Bclose!<CR>
+
+"" Align
+vnoremap <leader>a> :Align =><CR>
+vnoremap <leader>a= :Align =<CR>
+
+"" Tlist
+noremap <leader>l :TlistToggle<CR>
