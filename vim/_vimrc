@@ -1,8 +1,8 @@
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab                   "replace tabs by spaces
 set shiftround                  "when at 3 spaces, and I hit > ... go to 4, not 5
-set listchars=tab:>-,trail:°    "show tabs and trailing
+set listchars=tab:>-,trail:.    "show tabs and trailing
 set list
 
 set ff=unix                     "Unix EOL
