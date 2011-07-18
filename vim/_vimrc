@@ -62,7 +62,7 @@ let Tlist_Sort_Type               = "name"    " order by
 
 " Alt-right/left to navigate forward/backward in the tags stack
 map <M-Left> <C-T>
-map <M-Right> <C-]>
+map <M-Right> g<C-]>
 
 " language specific
 let tlist_php_settings = 'php;c:class;d:constant;f:function' " don't show variables in php
